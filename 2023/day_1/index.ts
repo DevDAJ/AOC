@@ -1,5 +1,5 @@
 
-const input = await Bun.file('./day_1/input.txt').text()
+const input = await Bun.file('./2023/day_1/input.txt').text()
 
 const sample1 = 
 `1abc2

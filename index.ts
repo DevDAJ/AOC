@@ -1,10 +1,11 @@
-import { Part1, Part2 } from "./day_2";
+import { Part1, Part2 } from "./2023/day_2";
 
-console.log('\x1b[2J');
+console.clear();
 
 
-if (Bun.argv.includes('part1'))
-    console.log(Part1());
+if (Bun.argv.includes('part1')){
+    console.log(Part1());    
+}
 if (Bun.argv.includes('part2'))
     console.log(Part2());
 

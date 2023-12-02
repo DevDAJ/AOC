@@ -1,4 +1,4 @@
-const input = await Bun.file('./day_2/input.txt').text()
+const input = await Bun.file('./2023/day_2/input.txt').text()
 
 const sample1 =
 `Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green
